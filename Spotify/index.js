@@ -61,20 +61,20 @@ songs = [
     { songName: 'Song 2', songDes: 'This is the description for song 2', songImage: 'Images/2.jpg', songPath: 'Audio/2.mp3' },
     { songName: 'Song 3', songDes: 'This is the description for song 3', songImage: 'Images/3.jpg', songPath: 'Audio/3.mp3' },
     { songName: 'Song 4', songDes: 'This is the description for song 4', songImage: 'Images/4.jpg', songPath: 'Audio/4.mp3' },
-    { songName: 'Song 5', songDes: 'This is the description for song 5', songImage: 'Images/5.jpg', songPath: 'Audio/5.mp3' },
-    { songName: 'Song 6', songDes: 'This is the description for song 6', songImage: 'Images/6.jpg', songPath: 'Audio/6.mp3' },
-    { songName: 'Song 7', songDes: 'This is the description for song 7', songImage: 'Images/7.jpg', songPath: 'Audio/7.mp3' },
-    { songName: 'Song 8', songDes: 'This is the description for song 8', songImage: 'Images/8.jpg', songPath: 'Audio/8.mp3' },
-    { songName: 'Song 9', songDes: 'This is the description for song 9', songImage: 'Images/9.jpg', songPath: 'Audio/9.mp3' },
-    { songName: 'Song 10', songDes: 'This is the description for song 10', songImage: 'Images/10.jpg', songPath: 'Audio/10.mp3' },
-    { songName: 'Song 11', songDes: 'This is the description for song 11', songImage: 'Images/11.jpg', songPath: 'Audio/11.mp3' },
-    { songName: 'Song 12', songDes: 'This is the description for song 12', songImage: 'Images/12.jpg', songPath: 'Audio/12.mp3' },
-    { songName: 'Song 13', songDes: 'This is the description for song 13', songImage: 'Images/13.jpg', songPath: 'Audio/13.mp3' },
-    { songName: 'Song 14', songDes: 'This is the description for song 14', songImage: 'Images/14.jpg', songPath: 'Audio/14.mp3' },
-    { songName: 'Song 15', songDes: 'This is the description for song 15', songImage: 'Images/15.jpg', songPath: 'Audio/15.mp3' },
-    { songName: 'Song 16', songDes: 'This is the description for song 16', songImage: 'Images/16.jpg', songPath: 'Audio/16.mp3' },
-    { songName: 'Song 17', songDes: 'This is the description for song 17', songImage: 'Images/17.jpg', songPath: 'Audio/17.mp3' },
-    { songName: 'Song 18', songDes: 'This is the description for song 18', songImage: 'Images/18.jpg', songPath: 'Audio/18.mp3' }
+    { songName: 'Song 5', songDes: 'This is the description for song 5', songImage: 'Images/5.jpg', songPath: 'Audio/1.mp3' },
+    { songName: 'Song 6', songDes: 'This is the description for song 6', songImage: 'Images/6.jpg', songPath: 'Audio/2.mp3' },
+    { songName: 'Song 7', songDes: 'This is the description for song 7', songImage: 'Images/7.jpg', songPath: 'Audio/3.mp3' },
+    { songName: 'Song 8', songDes: 'This is the description for song 8', songImage: 'Images/8.jpg', songPath: 'Audio/4.mp3' },
+    { songName: 'Song 9', songDes: 'This is the description for song 9', songImage: 'Images/9.jpg', songPath: 'Audio/1.mp3' },
+    { songName: 'Song 10', songDes: 'This is the description for song 10', songImage: 'Images/10.jpg', songPath: 'Audio/2.mp3' },
+    { songName: 'Song 11', songDes: 'This is the description for song 11', songImage: 'Images/11.jpg', songPath: 'Audio/3.mp3' },
+    { songName: 'Song 12', songDes: 'This is the description for song 12', songImage: 'Images/12.jpg', songPath: 'Audio/4.mp3' },
+    { songName: 'Song 13', songDes: 'This is the description for song 13', songImage: 'Images/13.jpg', songPath: 'Audio/1.mp3' },
+    { songName: 'Song 14', songDes: 'This is the description for song 14', songImage: 'Images/14.jpg', songPath: 'Audio/2.mp3' },
+    { songName: 'Song 15', songDes: 'This is the description for song 15', songImage: 'Images/15.jpg', songPath: 'Audio/3.mp3' },
+    { songName: 'Song 16', songDes: 'This is the description for song 16', songImage: 'Images/16.jpg', songPath: 'Audio/4.mp3' },
+    { songName: 'Song 17', songDes: 'This is the description for song 17', songImage: 'Images/17.jpg', songPath: 'Audio/1.mp3' },
+    { songName: 'Song 18', songDes: 'This is the description for song 18', songImage: 'Images/18.jpg', songPath: 'Audio/2.mp3' }
 ]
 
 order = [...songs];
@@ -175,4 +175,5 @@ audio.addEventListener('ended', () => {
 backward.addEventListener('click', () => {
     playPrevSong();
 });
+
 
